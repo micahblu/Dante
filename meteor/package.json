@@ -1,0 +1,29 @@
+{
+  "name": "Dante",
+  "version": "0.0.10",
+  "description": "Just another Medium editor clone.",
+  "main": "export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michelson/Dante"
+  },
+  "keywords": [
+    "medium",
+    "editor",
+    "wysiwyg"
+  ],
+  "author": "Miguel Michelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michelson/Dante/issues"
+  },
+  "homepage": "https://github.com/michelson/Dante",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-exec": "^0.4.6",
+    "spacejam": "^1.1.4"
+  }
+}
