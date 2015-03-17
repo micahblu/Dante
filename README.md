@@ -133,6 +133,14 @@ or
 
 `foreman start` and visit http://localhost:9292
 
+### Meteor
+
+To use the Dante editor with the Meteor framework, run
+
+    $ meteor add michelson:dante
+
+Learn more about the [Meteor integration in the README](meteor/README.md).
+
 ### Tests:
 
 tests are located in source/tests and /source/assets/spec folder and accessible by visit host/tests

@@ -6,6 +6,8 @@ var where = 'client';
 
 var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
 
+console.log(packageJson);
+
 Package.describe({
   name: packageName,
   summary: 'A medium style wysiwyg editor',
@@ -17,6 +19,9 @@ Package.onUse(function (api) {
   api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
   api.export('Dante');
   api.addFiles([
+    '../bower_components/jquery/dist/jquery.min.js',
+    '../bower_components/underscore/underscore.js',
+    '../bower_components/sanitize.js/lib/sanitize.js',
     '../dist/0.0.10/js/dante-editor.js',
     '../dist/0.0.10/css/dante-editor.css',
     '../dist/0.0.10/images/dante/media-loading-placeholder.png',
